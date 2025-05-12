@@ -1,0 +1,26 @@
+{
+  "name": "tokens-code",
+  "version": "1.0.0",
+  "description": "This file is to use with design tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teesarasas/tokens-code.git"
+  },
+  "author": "Suwat Traichiraarporn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teesarasas/tokens-code/issues"
+  },
+  "homepage": "https://github.com/teesarasas/tokens-code#readme",
+  "devDependencies": {
+    "storybook": "^8.6.12",
+    "style-dictionary": "^4.4.0"
+  },
+  "dependencies": {
+    "sass": "^1.87.0"
+  }
+}
