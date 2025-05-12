@@ -157,10 +157,19 @@
       }
     }
   },
+  "semantic/color": {
+    "brand": {
+      "primary": {
+        "value": "{allianzBlue.AllianzBlue-900}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "core/color"
+      "core/color",
+      "semantic/color"
     ]
   }
 }
