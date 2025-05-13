@@ -165,11 +165,26 @@
       }
     }
   },
+  "component/button": {
+    "button": {
+      "color": {
+        "background": {
+          "primary": {
+            "default": {
+              "value": "{brand.primary}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core/color",
-      "semantic/color"
+      "semantic/color",
+      "component/button"
     ]
   }
 }
