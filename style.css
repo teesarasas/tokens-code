@@ -1,6 +1,6 @@
 @import url('./build/css/_variables.css');
 
 .button-primary {
-    background-color: var(--ds-component-button-color-background-primary-default);
+    background-color: var(--ds-component-button-primary-color-background-default);
     color: #ffffff;
 }

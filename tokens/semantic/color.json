@@ -1,7 +1,7 @@
 {
   "brand": {
     "primary": {
-      "value": "{allianzBlue.AllianzBlue-900}",
+      "value": "{blue.blue-900}",
       "type": "color"
     }
   }

@@ -1,14 +1,15 @@
 :root {
-  --ds-allianz-blue-allianz-blue-100: #e1eaf5;
-  --ds-allianz-blue-allianz-blue-200: #c3d5ec;
-  --ds-allianz-blue-allianz-blue-300: #a4c0e2;
-  --ds-allianz-blue-allianz-blue-400: #6697ce;
-  --ds-allianz-blue-allianz-blue-500: #3369b0;
-  --ds-allianz-blue-allianz-blue-600: #003781;
-  --ds-allianz-blue-allianz-blue-700: #002f70;
-  --ds-allianz-blue-allianz-blue-800: #00245a;
-  --ds-allianz-blue-allianz-blue-900: #001c48;
-  --ds-allianz-blue-allianz-blue-1000: #001435;
+  --ds-component-button-primary-color-background-default: #001c48;
+  --ds-blue-blue-100: #e1eaf5;
+  --ds-blue-blue-200: #c3d5ec;
+  --ds-blue-blue-300: #a4c0e2;
+  --ds-blue-blue-400: #6697ce;
+  --ds-blue-blue-500: #3369b0;
+  --ds-blue-blue-600: #003781;
+  --ds-blue-blue-700: #002f70;
+  --ds-blue-blue-800: #00245a;
+  --ds-blue-blue-900: #001c48;
+  --ds-blue-blue-1000: #001435;
   --ds-orange-orange-100: #ffc9ab;
   --ds-orange-orange-200: #fead7f;
   --ds-orange-orange-300: #fb8d4e;
@@ -29,5 +30,6 @@
   --ds-green-green-800: #1e5232;
   --ds-green-green-900: #173f27;
   --ds-green-green-1000: #102c1b;
+  --ds-font-family-inter: Inter;
   --ds-semantic-brand-primary: #001c48;
 }
