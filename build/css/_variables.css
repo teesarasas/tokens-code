@@ -1,0 +1,35 @@
+:root {
+  --ds-component-button-primary-color-background-default: #001c48;
+  --ds-blue-blue-100: #e1eaf5;
+  --ds-blue-blue-200: #c3d5ec;
+  --ds-blue-blue-300: #a4c0e2;
+  --ds-blue-blue-400: #6697ce;
+  --ds-blue-blue-500: #3369b0;
+  --ds-blue-blue-600: #003781;
+  --ds-blue-blue-700: #002f70;
+  --ds-blue-blue-800: #00245a;
+  --ds-blue-blue-900: #001c48;
+  --ds-blue-blue-1000: #001435;
+  --ds-orange-orange-100: #ffc9ab;
+  --ds-orange-orange-200: #fead7f;
+  --ds-orange-orange-300: #fb8d4e;
+  --ds-orange-orange-400: #f36e22;
+  --ds-orange-orange-500: #e05100;
+  --ds-orange-orange-600: #c63f00;
+  --ds-orange-orange-700: #a73100;
+  --ds-orange-orange-800: #862500;
+  --ds-orange-orange-900: #681c00;
+  --ds-orange-orange-1000: #491400;
+  --ds-green-green-100: #bbdfc9;
+  --ds-green-green-200: #92cda9;
+  --ds-green-green-300: #6dbb8b;
+  --ds-green-green-400: #47a96d;
+  --ds-green-green-500: #36935a;
+  --ds-green-green-600: #2e7e4d;
+  --ds-green-green-700: #26683f;
+  --ds-green-green-800: #1e5232;
+  --ds-green-green-900: #173f27;
+  --ds-green-green-1000: #102c1b;
+  --ds-font-family-inter: Inter;
+  --ds-semantic-brand-primary: #001c48;
+}

@@ -1,0 +1,8 @@
+{
+  "brand": {
+    "primary": {
+      "value": "{blue.blue-900}",
+      "type": "color"
+    }
+  }
+}

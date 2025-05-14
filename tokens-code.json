@@ -1,104 +1,112 @@
 {
+  "core/typography": {
+    "fontFamily": {
+      "Inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    }
+  },
   "core/color": {
-    "allianzBlue": {
-      "AllianzBlue-100": {
+    "blue": {
+      "blue-100": {
         "value": "#e1eaf5",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.47:1 against background #ffffff"
       },
-      "AllianzBlue-200": {
+      "blue-200": {
         "value": "#c3d5ec",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.82:1 against background #ffffff"
       },
-      "AllianzBlue-300": {
+      "blue-300": {
         "value": "#a4c0e2",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.32:1 against background #ffffff"
       },
-      "AllianzBlue-400": {
+      "blue-400": {
         "value": "#6697ce",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.96:1 against background #ffffff"
       },
-      "AllianzBlue-500": {
+      "blue-500": {
         "value": "#3369b0",
         "type": "color",
         "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.9:1 against background #ffffff"
       },
-      "AllianzBlue-600": {
+      "blue-600": {
         "value": "#003781",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.1:1 against background #ffffff"
       },
-      "AllianzBlue-700": {
+      "blue-700": {
         "value": "#002f70",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.79:1 against background #ffffff"
       },
-      "AllianzBlue-800": {
+      "blue-800": {
         "value": "#00245a",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.15:1 against background #ffffff"
       },
-      "AllianzBlue-900": {
+      "blue-900": {
         "value": "#001c48",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.9:1 against background #ffffff"
       },
-      "AllianzBlue-1000": {
+      "blue-1000": {
         "value": "#001435",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 15.13:1 against background #ffffff"
       }
     },
     "orange": {
-      "Orange-100": {
+      "orange-100": {
         "value": "#ffc9ab",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.47:1 against background #ffffff"
       },
-      "Orange-200": {
+      "orange-200": {
         "value": "#fead7f",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.82:1 against background #ffffff"
       },
-      "Orange-300": {
+      "orange-300": {
         "value": "#fb8d4e",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.32:1 against background #ffffff"
       },
-      "Orange-400": {
+      "orange-400": {
         "value": "#f36e22",
         "type": "color",
         "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.96:1 against background #ffffff"
       },
-      "Orange-500": {
+      "orange-500": {
         "value": "#e05100",
         "type": "color",
         "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.9:1 against background #ffffff"
       },
-      "Orange-600": {
+      "orange-600": {
         "value": "#c63f00",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.1:1 against background #ffffff"
       },
-      "Orange-700": {
+      "orange-700": {
         "value": "#a73100",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.79:1 against background #ffffff"
       },
-      "Orange-800": {
+      "orange-800": {
         "value": "#862500",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.15:1 against background #ffffff"
       },
-      "Orange-900": {
+      "orange-900": {
         "value": "#681c00",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.9:1 against background #ffffff"
       },
-      "Orange-1000": {
+      "orange-1000": {
         "value": "#491400",
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 15.13:1 against background #ffffff"
@@ -160,16 +168,30 @@
   "semantic/color": {
     "brand": {
       "primary": {
-        "value": "{allianzBlue.AllianzBlue-900}",
+        "value": "{blue.blue-900}",
         "type": "color"
+      }
+    }
+  },
+  "component/button": {
+    "button-primary": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{brand.primary}",
+            "type": "color"
+          }
+        }
       }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
+      "core/typography",
       "core/color",
-      "semantic/color"
+      "semantic/color",
+      "component/button"
     ]
   }
 }
