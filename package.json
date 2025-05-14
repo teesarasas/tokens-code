@@ -1,10 +1,14 @@
 {
   "name": "tokens-code",
   "version": "1.0.0",
+  "type": "module",
   "description": "This file is to use with design tokens",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tokens": "style-dictionary build --config config.json",
+    "build-css": "sass main.scss main.css",
+    "watch-css": "sass --watch main.scss main.css"
   },
   "repository": {
     "type": "git",

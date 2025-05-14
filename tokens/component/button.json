@@ -1,0 +1,14 @@
+{
+  "button": {
+    "color": {
+      "background": {
+        "primary": {
+          "default": {
+            "value": "{brand.primary}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

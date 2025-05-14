@@ -1,0 +1,158 @@
+{
+  "allianzBlue": {
+    "allianzBlue-100": {
+      "value": "#e1eaf5",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.47:1 against background #ffffff"
+    },
+    "allianzBlue-200": {
+      "value": "#c3d5ec",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.82:1 against background #ffffff"
+    },
+    "allianzBlue-300": {
+      "value": "#a4c0e2",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.32:1 against background #ffffff"
+    },
+    "allianzBlue-400": {
+      "value": "#6697ce",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.96:1 against background #ffffff"
+    },
+    "allianzBlue-500": {
+      "value": "#3369b0",
+      "type": "color",
+      "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.9:1 against background #ffffff"
+    },
+    "allianzBlue-600": {
+      "value": "#003781",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.1:1 against background #ffffff"
+    },
+    "allianzBlue-700": {
+      "value": "#002f70",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.79:1 against background #ffffff"
+    },
+    "allianzBlue-800": {
+      "value": "#00245a",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.15:1 against background #ffffff"
+    },
+    "allianzBlue-900": {
+      "value": "#001c48",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.9:1 against background #ffffff"
+    },
+    "allianzBlue-1000": {
+      "value": "#001435",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 15.13:1 against background #ffffff"
+    }
+  },
+  "orange": {
+    "orange-100": {
+      "value": "#ffc9ab",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.47:1 against background #ffffff"
+    },
+    "orange-200": {
+      "value": "#fead7f",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.82:1 against background #ffffff"
+    },
+    "orange-300": {
+      "value": "#fb8d4e",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.32:1 against background #ffffff"
+    },
+    "orange-400": {
+      "value": "#f36e22",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.96:1 against background #ffffff"
+    },
+    "orange-500": {
+      "value": "#e05100",
+      "type": "color",
+      "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.9:1 against background #ffffff"
+    },
+    "orange-600": {
+      "value": "#c63f00",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.1:1 against background #ffffff"
+    },
+    "orange-700": {
+      "value": "#a73100",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.79:1 against background #ffffff"
+    },
+    "orange-800": {
+      "value": "#862500",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.15:1 against background #ffffff"
+    },
+    "orange-900": {
+      "value": "#681c00",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.9:1 against background #ffffff"
+    },
+    "orange-1000": {
+      "value": "#491400",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 15.13:1 against background #ffffff"
+    }
+  },
+  "green": {
+    "green-100": {
+      "value": "#bbdfc9",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.45:1 against background #ffffff"
+    },
+    "green-200": {
+      "value": "#92cda9",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.82:1 against background #ffffff"
+    },
+    "green-300": {
+      "value": "#6dbb8b",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff"
+    },
+    "green-400": {
+      "value": "#47a96d",
+      "type": "color",
+      "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.92:1 against background #ffffff"
+    },
+    "green-500": {
+      "value": "#36935a",
+      "type": "color",
+      "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.84:1 against background #ffffff"
+    },
+    "green-600": {
+      "value": "#2e7e4d",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.02:1 against background #ffffff"
+    },
+    "green-700": {
+      "value": "#26683f",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.69:1 against background #ffffff"
+    },
+    "green-800": {
+      "value": "#1e5232",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9:1 against background #ffffff"
+    },
+    "green-900": {
+      "value": "#173f27",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.73:1 against background #ffffff"
+    },
+    "green-1000": {
+      "value": "#102c1b",
+      "type": "color",
+      "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 14.94:1 against background #ffffff"
+    }
+  }
+}
