@@ -165,10 +165,18 @@
       }
     }
   },
-  "semantic/color": {
+  "semantic (theme 1)/color": {
     "brand": {
       "primary": {
         "value": "{blue.blue-900}",
+        "type": "color"
+      }
+    }
+  },
+  "semantic (theme 2)/color": {
+    "brand": {
+      "primary": {
+        "value": "{orange.orange-900}",
         "type": "color"
       }
     }
@@ -190,7 +198,8 @@
     "tokenSetOrder": [
       "core/typography",
       "core/color",
-      "semantic/color",
+      "semantic (theme 1)/color",
+      "semantic (theme 2)/color",
       "component/button"
     ]
   }
