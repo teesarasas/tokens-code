@@ -163,12 +163,72 @@
         "type": "color",
         "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 14.94:1 against background #ffffff"
       }
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#212121",
+      "type": "color"
     }
   },
-  "semantic/color": {
-    "brand": {
-      "primary": {
-        "value": "{blue.blue-900}",
+  "semantic (theme 1)/color": {
+    "background": {
+      "brand": {
+        "default": {
+          "value": "{blue.blue-900}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{blue.blue-1000}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{white}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{blue.blue-1000}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{white}",
+        "type": "color"
+      }
+    }
+  },
+  "semantic (theme 2)/color": {
+    "background": {
+      "brand": {
+        "default": {
+          "value": "{orange.orange-900}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{orange.orange-900}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{white}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{orange.orange-900}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{white}",
         "type": "color"
       }
     }
@@ -178,7 +238,19 @@
       "color": {
         "background": {
           "default": {
-            "value": "{brand.primary}",
+            "value": "{background.brand.default}",
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "{text.inverse}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{icon.inverse}",
             "type": "color"
           }
         }
@@ -190,7 +262,8 @@
     "tokenSetOrder": [
       "core/typography",
       "core/color",
-      "semantic/color",
+      "semantic (theme 1)/color",
+      "semantic (theme 2)/color",
       "component/button"
     ]
   }
