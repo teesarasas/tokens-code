@@ -173,7 +173,7 @@
       "type": "color"
     }
   },
-  "semantic (theme 1)/color": {
+  "semantic/color": {
     "background": {
       "brand": {
         "default": {
@@ -195,36 +195,6 @@
     "icon": {
       "default": {
         "value": "{blue.blue-1000}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{white}",
-        "type": "color"
-      }
-    }
-  },
-  "semantic (theme 2)/color": {
-    "background": {
-      "brand": {
-        "default": {
-          "value": "{orange.orange-900}",
-          "type": "color"
-        }
-      }
-    },
-    "text": {
-      "default": {
-        "value": "{orange.orange-900}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{white}",
-        "type": "color"
-      }
-    },
-    "icon": {
-      "default": {
-        "value": "{orange.orange-900}",
         "type": "color"
       },
       "inverse": {
@@ -262,8 +232,7 @@
     "tokenSetOrder": [
       "core/typography",
       "core/color",
-      "semantic (theme 1)/color",
-      "semantic (theme 2)/color",
+      "semantic/color",
       "component/button"
     ]
   }
